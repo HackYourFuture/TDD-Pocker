@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/HackYourFuture/TDD-Poker/issues"
   },
-  "homepage": "https://github.com/HackYourFuture/TDD-Poker#readme"
+  "homepage": "https://github.com/HackYourFuture/TDD-Poker#readme",
+  "dependencies": {
+    "jasmine": "^2.5.3"
+  }
 }
