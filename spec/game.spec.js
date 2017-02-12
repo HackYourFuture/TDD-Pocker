@@ -52,5 +52,8 @@ describe('Tic Tac Toe with two players', () => {
   it('should give me the winner name based on the array passed', () => {
     var res = game.resolveWinner([1,1,1,0,0,0,0,0,0]);
     expect(res).toBe('Mauro');
+    var res = game.resolveWinner([0,0,0,2,2,2,0,0,0]);
+    expect(res).toBe('Jim');
   });
+
 });
